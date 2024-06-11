@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --colorPrimario: #da1845;
+    --colorSecundario: #e65787;
+    --colorTerciario: #1f24baca;
+    --neutroBlanco: #eeeeee;
+}
+
+body{
+    background-color: var(--neutroBlanco);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+h1{
+    text-align: center;
+    color: #e65787;
+    font-size: 50px;
+}
+
+div{
+    font-style: bold;
+    font-size: 20px;
+}
+
+.flex__container{
+    /*background-color: rgb(243, 209, 214);
+    border: solid var(--colorPrimario) 5px;
+    border-radius: 15px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto; 
+    justify-content: center;
+}
+
+.box__01{
+    background-color: var(--colorPrimario);
+    background-color: var(--colorPrimario);
+    background: linear-gradient(to bottom, #eeeeee7c, #d8184577), url(https://media.istockphoto.com/id/1867271848/es/foto/hermoso-pastel-colorido-en-la-celebraci%C3%B3n-del-baby-shower.jpg?s=612x612&w=is&k=20&c=8demadFa1edWjOiN09eCBZqxyjSasxpwFNZXfbqDNFE=) center no-repeat;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid var(--colorSecundario) 5px;
+    border-radius: 15px;
+    color: var(--neutroBlanco);
+}
+
+.box__02{
+    background-color: var(--colorSecundario);
+    background: linear-gradient(to bottom, #eeeeee7c, #d8184577), url(https://media.istockphoto.com/id/1676097087/es/foto/pastel-de-tres-leches-pasteler%C3%ADa-latinoamericana-de-tres-leches-con-fresas.jpg?s=612x612&w=is&k=20&c=SJ2TMalk7NLaFANwFyHax8JCC2v7_gba9HluLdH9hMQ=) center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid var(--colorSecundario) 5px;
+    border-radius: 15px;
+    color: var(--neutroBlanco);
+}
+
+.box__03{
+    background-color: var(--colorPrimario);
+    background: linear-gradient(to bottom, #eeeeee7c, #d8184577), url(https://media.istockphoto.com/id/1242922602/es/foto/composici%C3%B3n-con-delicioso-pastel-de-crema-de-bayas-sobre-mesa-de-madera-blanca-postre-sabroso.jpg?s=612x612&w=is&k=20&c=29ucOQGXEiqpmSYruvX-IiqCBaXaJfNqTht5uYs_WyU=) center no-repeat;
+    background-size: cover;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid var(--colorSecundario) 5px;
+    border-radius: 15px;
+    color: var(--neutroBlanco);
+}
+
+.box__04{
+    background-color: var(--colorSecundario);
+    background-color: var(--colorPrimario);
+    background: linear-gradient(to bottom, #eeeeee7c, #d8184577), url(https://plus.unsplash.com/premium_photo-1668782095746-49291f3de3b3?q=80&w=979&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center no-repeat;
+    width: 290px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid var(--colorSecundario) 5px;
+    border-radius: 15px;
+    color: var(--neutroBlanco);
+}
