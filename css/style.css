@@ -139,11 +139,12 @@ h2 {
     /*background-color: rgb(243, 209, 214);
     border: solid var(--colorPrimario) 5px;
     border-radius: 15px;*/
+    color: var(--color__blanco);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 70%;
-    margin: 0 auto; 
+    margin: 20px auto; 
     justify-content: center;
 }
 
@@ -232,6 +233,58 @@ h2 {
     margin: 0 19px;
 }
 
+/* Contenedor tarjetas */
+.contenedor__tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.tarjeta{
+    width: 325px;
+    background-color: var(--color__primario);
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 20px;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.contenido__tarjeta{
+    padding: 20px;
+}
+
+.contenido__tarjeta h1{
+    font-size: 23px;
+    color: var(--color__blanco);
+}
+
+.contenido__tarjeta p{
+    font-size: 17px;
+    color: var(--color__blanco);
+}
+
+.boton__tarjeta{
+    display: inline-block;
+    background-color: var(--color__terciario);
+    color: var(--color__primario);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.boton__tarjeta:hover{
+    color: var(--color__blanco);
+}
+
+/* Contenedor tarjetas - fin*/
 
 @media (max-width:720px) {
     .contenido__principal img{
